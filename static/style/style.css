@@ -1,0 +1,56 @@
+#all{
+	width: 90% ;
+	
+
+}
+.title{
+	position: absolute;
+	top: 300px ;
+	right: 300px ;
+
+
+}
+#show{
+
+}
+span{
+	color: red ;
+}
+.foo{
+  
+	width: 90% ;
+	height: 30px ;
+}
+#header{
+	width: auto;
+	height: 50px ;
+	border: 1px solid red ;
+}
+#logo{
+	float: left;
+	font-size: 36px ;
+	font-family: 'Indie Flower', cursive;
+}
+.nav1{
+	float: right;
+}
+.ma{
+list-style-type: none;
+}
+.ma .mi{
+	float: right;
+	line-height: 40px ;
+}
+.mi{
+	float: left;
+}
+@media (max-width: 500px){
+
+body{
+	background-color: red ;
+}
+.nav1{
+	text-align: center;
+	
+}
+}
